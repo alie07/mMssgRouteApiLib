@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Socket Objects">
+      <UniqueIdentifier>{9a88a0a8-b85f-4ef7-a2c2-a0e6a14a3aa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spartan Connections">
+      <UniqueIdentifier>{722d4336-183f-42e8-8c4e-9d7e547448d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message Routing">
+      <UniqueIdentifier>{febcb610-8548-4947-a201-e3134ec05060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event Messages">
+      <UniqueIdentifier>{1aaa2d7b-9810-4a92-be6c-504b81afb170}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mMssgRouteApiLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="svc_interface_entries.cpp">
+      <Filter>Socket Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="winsock_api_entries.cpp">
+      <Filter>Socket Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="TokenEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WinsockBase.cpp">
+      <Filter>Socket Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SpartanConnection.cpp">
+      <Filter>Spartan Connections</Filter>
+    </ClCompile>
+    <ClCompile Include="SpartanServer.cpp">
+      <Filter>Spartan Connections</Filter>
+    </ClCompile>
+    <ClCompile Include="SupportEntries.cpp">
+      <Filter>Socket Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageRouter.cpp">
+      <Filter>Message Routing</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageCmd.cpp">
+      <Filter>Event Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageSite.cpp">
+      <Filter>Message Routing</Filter>
+    </ClCompile>
+    <ClCompile Include="WinAppVarNames.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageHost.cpp">
+      <Filter>Message Routing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mMssgRouteApiLib.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="res\mMssgRouteApiLib.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="svc_interface_entries.h">
+      <Filter>Socket Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="winsock_api_entries.h">
+      <Filter>Socket Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="TokenEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WinsockBase.h">
+      <Filter>Socket Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SpartanConnection.h">
+      <Filter>Spartan Connections</Filter>
+    </ClInclude>
+    <ClInclude Include="SpartanServer.h">
+      <Filter>Spartan Connections</Filter>
+    </ClInclude>
+    <ClInclude Include="HydraDefineType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SupportEntries.h">
+      <Filter>Socket Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="dll_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageRouter.h">
+      <Filter>Message Routing</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageCmd.h">
+      <Filter>Event Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageSite.h">
+      <Filter>Message Routing</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageHost.h">
+      <Filter>Message Routing</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="mMssgRouteApiLib.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
